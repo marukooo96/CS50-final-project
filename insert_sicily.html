@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Registro Infopoint</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="text">
+            <h1>Registro Presenze Piazza Vigata</h1>
+            <p>Anno 2024</p>
+        </div>
+    </div>
+
+    <div class="insert">
+        <p>Inserire i dati degli ospiti</p>
+        <label for="provincia">Provincia</label>
+        <select name="provincia" id="provincia">
+            <option value="Agrigento">Agrigento</option>
+            <option value="Caltanissetta">Caltanissetta</option>
+            <option value="Catania">Catania</option>
+            <option value="Enna">Enna</option>
+            <option value="Messina">Messina</option>
+            <option value="Palermo">Palermo</option>
+            <option value="Ragusa">Ragusa</option>
+            <option value="Siracusa">Siracusa</option>
+            <option value="Trapani"> Trapani</option>
+        </select><br><br>
+        <label for="numero">Numero</label>
+        <input type="number" class="numero" id="numero_sicilia"><br><br>
+        <label for="mese">Mese</label>
+        <select name="mese" id="mese_sicilia">
+            <option value="Giugno">Giugno</option>
+            <option value="Luglio">Luglio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Settembre">Settembre</option>
+        </select>
+        <input type="submit" value="Inserisci" onclick="insert_sicily()">
+    </div>
+</body>
+</html>
